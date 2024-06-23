@@ -8,7 +8,7 @@ class Program
         SecondTask();
         ThirdTask();
         FourthTask();
-
+        FifthTask();
     }
 
 
@@ -154,6 +154,65 @@ static void FirstTask()
         //}
     }
 
+    //Найпростіше стиснення ланцюжка ДНК. Ланцюг ДНК у вигляді строки на вхід
+    //(кожен нуклеотид представлений символом "A", "C", "G", "T"). Два методи,
+    //один для компресії, інший для декомпресії.
+
+    static void FifthTask()
+    {
+        //try
+        //{
+        //    Random random = new Random();
+        //    char[] nucleotides = { 'A', 'C', 'G', 'T' };
+        //    int length = 16;
+
+        //    char[] dnaSequenceArray = new char[length];
+        //    for (int i = 0; i < length; i++)
+        //    {
+        //        dnaSequenceArray[i] = nucleotides[random.Next(nucleotides.Length)];
+        //    }
+        //    string dnaSequence = new string(dnaSequenceArray);
+        //    Console.WriteLine($"Випадкова послідовність ДНК: {dnaSequence}");
 
 
+        //    string compressedDna = "";
+        //    int count = 1; 
+        //    for (int i = 1; i < dnaSequence.Length; i++)
+        //    {
+        //        if (dnaSequence[i] == dnaSequence[i - 1])
+        //        {
+        //            count++; 
+        //        }
+        //        else
+        //        {
+        //            compressedDna += count.ToString() + dnaSequence[i - 1];
+        //            count = 1; 
+        //        }
+        //    }
+        //    compressedDna += count.ToString() + dnaSequence[dnaSequence.Length - 1];
+        //    Console.WriteLine($"Компресована послідовність ДНК: {compressedDna}");
+
+
+        //    string decompressedDna = "";
+        //    for (int i = 0; i < compressedDna.Length; i++)
+        //    {
+        //        if (char.IsDigit(compressedDna[i]))
+        //        {
+        //            int countNum = compressedDna[i] - '0'; 
+        //            char nucleotide = compressedDna[i + 1]; 
+        //            decompressedDna += new string(nucleotide, countNum);
+        //            i++; 
+        //        }
+        //    }
+        //    Console.WriteLine($"Декомпресована послідовність ДНК: {decompressedDna}");
+
+        //}
+        //catch (Exception ex)
+        //{
+        //    Console.WriteLine(ex.Message);
+        //}
     }
+
+
+
+}
